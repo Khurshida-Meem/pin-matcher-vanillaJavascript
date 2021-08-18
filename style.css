@@ -31,7 +31,18 @@ body {
     outline: none;
     box-shadow: none;
 }
-
+.reset-button{
+    border: none;
+    margin-top: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #495BC3;
+    color: #fff;
+}
+.reset-button:focus{
+    outline: none;
+    box-shadow: none;
+}
 input[type='text']{
     background-color: #3D4153;
     padding: 10px 0px;
@@ -95,6 +106,7 @@ color: #E0B612;
     margin-top: 20px;
     border-radius: 15px;
     padding: 5px 20px;
+    display: none;
 }
 .notify-section{
     width: 35%;
